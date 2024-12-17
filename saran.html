@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Sweet Delights.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saran - Sweet Delights Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Sweet Delights.png" alt="Sweet Delights Logo">
+            <h1>Sweet Delights</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="saran.html" class="active">Saran</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="feedback">
+            <h2>Berikan Saran Anda</h2>
+            <form class="feedback-form">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telepon">Nomor Telepon:</label>
+                    <input type="tel" id="telepon" name="telepon">
+                </div>
+
+                <div class="form-group">
+                    <label for="saran">Saran Anda:</label>
+                    <textarea id="saran" name="saran" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Kirim Saran</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sweet Delights Bakery. 23670022 Agustiningtyas Dyahretno S.</p>
+    </footer>
+</body>
+</html>
